@@ -1,0 +1,146 @@
+[
+  {
+    "id": "apple",
+    "name": "تفاح أحمر",
+    "cat": "fruits",
+    "price": 8,
+    "unit": "كجم",
+    "emoji": "🍎"
+  },
+  {
+    "id": "banana",
+    "name": "موز",
+    "cat": "fruits",
+    "price": 6,
+    "unit": "كجم",
+    "emoji": "🍌"
+  },
+  {
+    "id": "orange",
+    "name": "برتقال",
+    "cat": "fruits",
+    "price": 7,
+    "unit": "كجم",
+    "emoji": "🍊"
+  },
+  {
+    "id": "grapes",
+    "name": "عنب",
+    "cat": "fruits",
+    "price": 12,
+    "unit": "كجم",
+    "emoji": "🍇"
+  },
+  {
+    "id": "tomato",
+    "name": "طماطم",
+    "cat": "vegetables",
+    "price": 5,
+    "unit": "كجم",
+    "emoji": "🍅"
+  },
+  {
+    "id": "cucumber",
+    "name": "خيار",
+    "cat": "vegetables",
+    "price": 5,
+    "unit": "كجم",
+    "emoji": "🥒"
+  },
+  {
+    "id": "carrot",
+    "name": "جزر",
+    "cat": "vegetables",
+    "price": 4,
+    "unit": "كجم",
+    "emoji": "🥕"
+  },
+  {
+    "id": "pepper",
+    "name": "فلفل أخضر",
+    "cat": "vegetables",
+    "price": 7,
+    "unit": "كجم",
+    "emoji": "🫑"
+  },
+  {
+    "id": "rice",
+    "name": "أرز بسمتي",
+    "cat": "grocery",
+    "price": 35,
+    "unit": "كيس",
+    "emoji": "🍚"
+  },
+  {
+    "id": "sugar",
+    "name": "سكر",
+    "cat": "grocery",
+    "price": 8,
+    "unit": "كيس",
+    "emoji": "🧂"
+  },
+  {
+    "id": "oil",
+    "name": "زيت طبخ",
+    "cat": "grocery",
+    "price": 18,
+    "unit": "حبة",
+    "emoji": "🫗"
+  },
+  {
+    "id": "pasta",
+    "name": "مكرونة",
+    "cat": "grocery",
+    "price": 6,
+    "unit": "حبة",
+    "emoji": "🍝"
+  },
+  {
+    "id": "milk",
+    "name": "حليب",
+    "cat": "dairy",
+    "price": 7,
+    "unit": "حبة",
+    "emoji": "🥛"
+  },
+  {
+    "id": "cheese",
+    "name": "جبن",
+    "cat": "dairy",
+    "price": 12,
+    "unit": "علبة",
+    "emoji": "🧀"
+  },
+  {
+    "id": "water",
+    "name": "مياه",
+    "cat": "drinks",
+    "price": 10,
+    "unit": "كرتون",
+    "emoji": "💧"
+  },
+  {
+    "id": "juice",
+    "name": "عصير",
+    "cat": "drinks",
+    "price": 8,
+    "unit": "حبة",
+    "emoji": "🧃"
+  },
+  {
+    "id": "chips",
+    "name": "بطاطس مقرمشة",
+    "cat": "snacks",
+    "price": 5,
+    "unit": "حبة",
+    "emoji": "🍿"
+  },
+  {
+    "id": "cookies",
+    "name": "بسكويت",
+    "cat": "snacks",
+    "price": 6,
+    "unit": "علبة",
+    "emoji": "🍪"
+  }
+]

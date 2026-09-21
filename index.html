@@ -1,0 +1,9 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ثمرة رزق</title><link rel="stylesheet" href="style.css"></head><body><main class="shell">
+<header class="top"><div class="brand"><div class="brandname">ثمرة <i>رزق</i></div><div class="mini">توصيل سريع 🌿</div></div><div class="search">🔎&nbsp;<input id="q" placeholder="ابحث عن منتج..." oninput="searchNow()"></div></header>
+<section class="hero"><h1>كل احتياجاتك.. من مكان واحد</h1><p>خضار وفواكه طازجة ومواد غذائية تصل إلى باب بيتك.</p><span class="pill">اطلب الآن</span></section>
+<div class="secTitle"><h2>تسوق حسب القسم</h2></div><section class="categories">
+<a class="category" href="fruits.html"><span class="circle">🍎</span><b>الفواكه</b></a><a class="category" href="vegetables.html"><span class="circle">🥬</span><b>الخضار</b></a><a class="category" href="grocery.html"><span class="circle">🛒</span><b>المواد الغذائية</b></a>
+<a class="category" href="dairy.html"><span class="circle">🥛</span><b>الألبان</b></a><a class="category" href="drinks.html"><span class="circle">🥤</span><b>المشروبات</b></a><a class="category" href="snacks.html"><span class="circle">🍪</span><b>السناكات</b></a></section>
+<div class="secTitle"><h2>مختارات اليوم</h2><a href="fruits.html">عرض المزيد</a></div><section class="grid" id="featured"></section>
+<section class="bottomInfo">📍 <b>الرياض - حي المهدية</b><br>📞 للتوصيل والتواصل: <b>0544444268</b></section><nav class="nav"><a href="index.html"><span>🏠</span>الرئيسية</a><a href="grocery.html"><span>🛍️</span>الأقسام</a><a href="cart.html"><span>🛒<i class="cartCount">0</i></span>السلة</a><a href="https://wa.me/966544444268"><span>💬</span>تواصل</a></nav></main>
+<script src="app.js"></script><script>featured.innerHTML=cards(PRODUCTS.slice(0,6));function searchNow(){let s=q.value.trim();featured.innerHTML=cards(PRODUCTS.filter(p=>p.name.includes(s)).slice(0,10))}</script></body></html>
